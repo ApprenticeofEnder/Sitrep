@@ -2,9 +2,10 @@
   "name": "sitrep",
   "version": "1.0.0",
   "description": "Like a status update, but also invitational!",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "author": "Robert Babaev",
   "license": "ISC",
