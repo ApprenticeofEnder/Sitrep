@@ -1,4 +1,5 @@
 const dotenv = require('dotenv');
+const config = require('../config.json');
 const { Client, Intents } = require('discord.js');
 
 dotenv.config();
@@ -10,8 +11,9 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith('{setup ')) {
+    if (message.content.startsWith(config.prefix)) {
         console.log('Do setup stuff');
+        message.channel.send('Yeet');
     }
 	console.log(message.content);
 });
