@@ -59,7 +59,8 @@ const listActivities = function(guild, authorName = '') {
                 $gte: new Date(Date.now()),
             },
         };
-        // Why this works with gte is beyond me
+        // If the end time hasn't passed, the activity hasn't expired
+        // We want to only list non-expired activities
         if (authorName) {
             query.ownerName = { $regex: authorName, $options: 'i' };
         }
