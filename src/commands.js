@@ -53,7 +53,13 @@ const setActivity = function(guild, authorName, authorID, messageArr) {
 
 const listActivities = function(guild, authorName = '') {
     return new Promise((resolve, reject) => {
-        const query = { guild: guild };
+        const query = {
+            guild: guild,
+            end: {
+                $gte: new Date(Date.now()),
+            },
+        };
+        // Why this works with gte is beyond me
         if (authorName) {
             query.ownerName = { $regex: authorName, $options: 'i' };
         }
