@@ -78,4 +78,5 @@ const listActivities = function(guild, authorName = '') {
 module.exports = {
     'setup': setActivity,
     'sitrep': listActivities,
+    'help': 'help',
 };

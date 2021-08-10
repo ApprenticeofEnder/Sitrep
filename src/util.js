@@ -58,8 +58,18 @@ function sitrep(messageArr, message) {
     });
 }
 
+function help(message) {
+    const commandsHelp = require('./help.json');
+    const eventEmbed = new MessageEmbed()
+        .setColor('#0099ff')
+        .setTitle('Sitrep Help')
+        .addFields(commandsHelp);
+    message.channel.send({ embed: eventEmbed });
+}
+
 module.exports = {
     setup: setup,
     sitrep: sitrep,
+    help: help,
     commands: commands,
 };

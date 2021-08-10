@@ -38,6 +38,9 @@ client.on('message', message => {
         else if (actualMessage[0] === 'sitrep') {
             util.sitrep(actualMessage, message);
         }
+        else if (actualMessage[0] === 'help') {
+            util.help(message);
+        }
     }
 });
 

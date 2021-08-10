@@ -1,0 +1,18 @@
+[
+    {
+        "name": "{ help }",
+        "value": "Displays this help message."
+    },
+    {
+        "name": "{ setup <DURATION> <ACTIVITY> }",
+        "value": "Updates your status doing ACTIVITY for DURATION (formatted HH:MM). This is per server."
+    },
+    {
+        "name": "{ sitrep }",
+        "value": "Gets a list of all the activity statuses in the server."
+    },
+    {
+        "name": "{ sitrep <SEARCH> }",
+        "value": "Similar to `sitrep`, but allows searching by username (not nickname)."
+    }
+]
