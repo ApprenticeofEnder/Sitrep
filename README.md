@@ -1,5 +1,7 @@
 # Sitrep
 
+![GitHub](https://img.shields.io/github/license/ApprenticeofEnder/Sitrep?style=plastic)
+
 **Welcome to Sitrep!** Sitrep is a Discord bot that allows easy open collaboration with just a couple of commands. Set your activity, how long you'll be doing it for, and other users in the same server can see and hop in, ready to help!
 
 The tech for this project was relatively simple, being a Discord bot. NodeJS was an obvious runtime solution, being async by nature and supporting discord.js, the most popular Discord bot framework. Data storage was done through MongoDB and Mongoose as an ODM, since MongoDB and JavaScript go hand in hand, and NoSQL works perfectly fine since there's no real sensitive data stored here.
