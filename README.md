@@ -11,6 +11,7 @@ Problems were mainly working with Discord.js for the first time, navigating how 
 _Future features may include:_
 - Restrictions by role/channel
 - Activity scheduling
+- Time Zone considerations
 - Additional features as requested
 
 ---
