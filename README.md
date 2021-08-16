@@ -20,6 +20,6 @@ _Future features may include:_
 
 (Time being, the bot's invite link is not on a public server. I do plan on making a site to host invites to the bot itself! Here's the invite link for the time being: [tada!](https://discord.com/oauth2/authorize?client_id=872269262016901140&scope=bot+applications.commands))
 
-Once you've invited the bot into your server, type `{help`. This will give you a list of commands and syntax to use. `{` is going to be your command prefix.
+Once you've invited the bot into your server, type `{ help }`. This will give you a list of commands and syntax to use. `{` is going to be your command prefix, similar to other bots, but if you don't like that, `{ command ARGS }` is a perfectly acceptable (and encouraged) syntax to use!
 
-There are two commands at the moment: `{setup` and `{sitrep`. These have arguments (some optional, some not), that you can view in the help section.
+There are two main commands at the moment: `{ setup TIME ACTIVITY }` and `{ sitrep }`. These have arguments (some optional, some not), that you can view in the help section.
